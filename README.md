@@ -34,3 +34,11 @@ https://docs.docker.com/compose/gettingstarted/
 
 https://docs.microsoft.com/pt-br/azure/cognitive-services/containers/container-image-tags?tabs=current
 
+
+
+Para o sucesso desta atividade e aprendizado será necessário realizar o seguinte treinamento (Todas as etapas) presentes no seguinte container:
+
+
+```
+ docker run -d -p 80:80 docker/getting-started
+ ```
