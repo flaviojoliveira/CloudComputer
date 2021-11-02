@@ -28,8 +28,7 @@ docker-compose up -d
 ```
 
 
-Fontes de consulta:
-Para o item APPContainer:
+Fontes de consulta para o item APPContainer:
 
 https://docs.docker.com/compose/gettingstarted/
 
