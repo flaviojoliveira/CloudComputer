@@ -15,6 +15,7 @@ Etapa Avaliativas:
 | Container BD     | Container(es) de Banco de Dados (MYSQL) que receberá em suas tabela os dados do conteiner acima.     |
 | APP Conatiner    | Container(es) de uma aplicação (Linguagem de escolha livre) que consiga realizar operações com os dados presentes em outro container de banco de dados.   |
 
+
 Encontro do dia 01/11: 
 
 - [x] Container BD realizado.
@@ -28,6 +29,14 @@ docker-compose up -d
 ```
 
 
+Encontro do dia 03/11: 
+
+- [ ] Fontes para construção do container
+- [ ] Teste de Integração APP com Banco de Dados
+- [ ] Build do APP
+- [ ] Imagem do APP
+- [ ] Container APP realizado.
+
 Fontes de consulta para o item APPContainer:
 
 https://docs.docker.com/compose/gettingstarted/
@@ -35,8 +44,14 @@ https://docs.docker.com/compose/gettingstarted/
 https://docs.microsoft.com/pt-br/azure/cognitive-services/containers/container-image-tags?tabs=current
 
 
+Encontro do dia 05/11: 
 
-Para o sucesso desta atividade e aprendizado será necessário realizar o seguinte treinamento (Todas as etapas) presentes no seguinte container:
+- [ ] preparação de medidas e itens
+- [ ] Dashboard BI: Concurso de Dashboard mais rápido e com layout agradável 
+
+
+
+**Para o sucesso desta atividade e aprendizado será necessário realizar o seguinte treinamento (Todas as etapas) presentes no seguinte container:**
 
 
 ```
