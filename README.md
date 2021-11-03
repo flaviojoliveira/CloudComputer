@@ -33,7 +33,8 @@ Encontro do dia 03/11:
 
 - [x] Fontes para construção do container (diretório flask)
   - links importantes:
-    Python / Flsk : https://www.youtube.com/watch?v=9qDTCIY3tK4
+    Python / Flsk : Oficial ( https://flask.palletsprojects.com/en/2.0.x/ )
+    exemplo 1: https://www.youtube.com/watch?v=9qDTCIY3tK4
     
 - [x] Teste de Integração APP com Banco de Dados
    - diretório app
