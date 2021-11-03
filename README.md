@@ -31,8 +31,14 @@ docker-compose up -d
 
 Encontro do dia 03/11: 
 
-- [ ] Fontes para construção do container
-- [ ] Teste de Integração APP com Banco de Dados
+- [x] Fontes para construção do container (diretório flask)
+  - links importantes:
+    Python / Flsk : https://www.youtube.com/watch?v=9qDTCIY3tK4
+    
+- [x] Teste de Integração APP com Banco de Dados
+   - diretório app
+
+Prõximo encontro:
 - [ ] Build do APP
 - [ ] Imagem do APP
 - [ ] Container APP realizado.
