@@ -20,7 +20,7 @@ def select_todos_usuarios(con):
 
 
 def main():
-    con = criar_conexao("localhost", "root", "", "db")
+    con = criar_conexao("localhost", "root", "senha", "db")
 
     insere_usuario(con, "Ola Mundo", "ola@mundo.com.br", "olamundo")
     select_todos_usuarios(con)
