@@ -37,7 +37,7 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=ProjetoTopcloud" -e "MSSQL_PID=Exp
 Teste:
 
 ```
-docker exec -it c1b7fd035220 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ProjetoTopcloud
+docker exec -it idcontainer /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ProjetoTopcloud
 ```
 
 Encontro do dia 03/11: 
