@@ -27,7 +27,14 @@ Consultar arquivo na pasta MYSQL "docker-compose.yaml"
 ```
 docker-compose up -d
 ```
+- [x] Docker SQL - Docker SQLServer
+```
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=ProjetoTopcloud" -e "MSSQL_PID=Express" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest 
+```
 
+```
+docker exec -it c1b7fd035220 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ProjetoTopcloud
+``
 
 Encontro do dia 03/11: 
 
@@ -56,6 +63,31 @@ Encontro do dia 05/11:
 - [ ] preparação de medidas e itens
 - [ ] Dashboard BI: Concurso de Dashboard mais rápido e com layout agradável 
 
+
+Encontro do dia 08/11: Bases para Business Intelligence
+
+-- Microsoft Docs:
+
+opção 1: Análise de Gastos de TI
+
+https://docs.microsoft.com/pt-br/power-bi/create-reports/sample-it-spend
+
+
+opção 2: Análise de Varejo
+
+https://docs.microsoft.com/pt-br/power-bi/create-reports/sample-opportunity-analysis
+
+opção 3: Rentabilidade do Cliente
+
+https://docs.microsoft.com/pt-br/power-bi/create-reports/sample-customer-profitability
+
+
+-- Data set (google)
+  - Teixeira de Freitas
+  - Servidores de Internet
+
+-- Kagle
+  - https://www.kaggle.com/datasets?tags=12107-Computer+Science
 
 
 **Para o sucesso desta atividade e aprendizado será necessário realizar o seguinte treinamento (Todas as etapas) presentes no seguinte container:**
