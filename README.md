@@ -38,7 +38,7 @@ Teste:
 
 ```
 docker exec -it c1b7fd035220 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ProjetoTopcloud
-``
+```
 
 Encontro do dia 03/11: 
 
